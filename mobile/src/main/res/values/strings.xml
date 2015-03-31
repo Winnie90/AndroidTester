@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AndroidTester</string>
     <string name="hello_world">Hello World</string>
+    <string name="title_activity_surveylist">Surveys</string>
+    <string name="title_activity_navigation">MainActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>
