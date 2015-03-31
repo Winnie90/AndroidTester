@@ -17,7 +17,7 @@
             android:label="@string/title_activity_surveylist" >
         </activity>
         <activity
-            android:name=".view.LoginActivity"
+            android:name=".view.LoginViewActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>

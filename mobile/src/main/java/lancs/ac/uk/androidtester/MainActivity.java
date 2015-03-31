@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import lancs.ac.uk.androidtester.view.LoginActivity;
+import lancs.ac.uk.androidtester.view.LoginViewActivity;
 
 public class MainActivity extends Activity {
 
@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     }
 
     private void startLogin() {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, LoginViewActivity.class);
         startActivity(intent);
         finish();
     }
