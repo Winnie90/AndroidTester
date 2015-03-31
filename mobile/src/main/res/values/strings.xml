@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">AndroidTester</string>
-    <string name="hello_world">Hello World</string>
     <string name="title_activity_surveylist">Surveys</string>
-    <string name="title_activity_navigation">MainActivity</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="group_name_1">To-Do Surveys</string>
+    <string name="group_name_2">Future Surveys</string>
+    <string name="group_name_3">Survey History</string>
 </resources>

@@ -1,4 +1,4 @@
-package lancs.ac.uk.androidtester;
+package lancs.ac.uk.androidtester.view;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package lancs.ac.uk.androidtester;
+package lancs.ac.uk.androidtester.view;
 
 import android.app.Activity;
 import android.util.SparseArray;
@@ -10,6 +10,8 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.CheckedTextView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import lancs.ac.uk.androidtester.R;
 
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
