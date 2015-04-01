@@ -6,4 +6,7 @@
     <string name="group_name_1">To-Do Surveys</string>
     <string name="group_name_2">Future Surveys</string>
     <string name="group_name_3">Survey History</string>
+    <string name="title_activity_survey_view">SurveyViewActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>

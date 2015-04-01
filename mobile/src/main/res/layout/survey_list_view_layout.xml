@@ -3,14 +3,12 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="32dp"
-    android:paddingTop="32dp"
     tools:context=".MainActivity" >
 
-    <ExpandableListView
+    <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-    </ExpandableListView>
+    </ListView>
 
 </LinearLayout> 
