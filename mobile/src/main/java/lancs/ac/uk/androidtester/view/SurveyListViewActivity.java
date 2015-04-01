@@ -25,8 +25,9 @@ public class SurveyListViewActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.survey_list_view_layout);
 
-        ArrayAdapter<Survey> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1, surveys);
+        ArrayAdapter<Survey> adapter = new ArrayAdapter<>(
+                this, android.R.layout.simple_list_item_1, surveys
+        );
 
         ListView surveyList = (ListView) findViewById(R.id.listView);
         surveyList.setAdapter(adapter);
@@ -58,12 +59,10 @@ public class SurveyListViewActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
